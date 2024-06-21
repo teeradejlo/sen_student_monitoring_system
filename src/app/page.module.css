@@ -1,0 +1,13 @@
+.main {
+	background-color: aliceblue;
+}
+
+.homeLeftPanel {
+	height: 100%;
+	width: 30%;
+}
+
+.homeRightPanel {
+	height: 100%;
+	width: 70%;
+}

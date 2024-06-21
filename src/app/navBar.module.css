@@ -1,0 +1,30 @@
+.navBar {
+	background-color: rgb(78, 178, 245);
+}
+
+.navBar>li {
+	list-style: none;
+}
+
+.navBarTitle {
+	cursor: default;
+	user-select: none;
+	-webkit-user-select: none;
+	background-color: rgb(23, 99, 149);
+}
+
+.navBarItem {
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	background-color: rgb(78, 178, 245);
+	transition: all 0.2s;
+}
+
+.navBarItem:hover {
+	background-color: rgb(64, 146, 201);
+}
+
+.navBarSelectedItem {
+	background-color: rgb(64, 146, 201);
+}
